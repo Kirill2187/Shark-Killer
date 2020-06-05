@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8954393950103273344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8681151904850456769}
+  - component: {fileID: 8567247906460280887}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8681151904850456769
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8954393950103273344}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8567247906460280887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8954393950103273344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59eaae76f4346e64cb9a7ed07fa5de47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mixer: {fileID: 24300002, guid: abe0e771cb27bac45bfe4380c3446449, type: 2}
+  sounds:
+  - name: BigSplash
+    clip: {fileID: 8300000, guid: 88ce9ef7d0a292c4ab9628b91b0668f8, type: 3}
+    volume: 0.373
+    pitch: 1.83
+    source: {fileID: 0}
+  - name: ChestOpen
+    clip: {fileID: 8300000, guid: b24c3335f19aa0144889eb3797ab0a67, type: 3}
+    volume: 0.5
+    pitch: 1.67
+    source: {fileID: 0}
+  - name: Eat
+    clip: {fileID: 8300000, guid: 1ddfb03a0d828af4298dea205f703cf1, type: 3}
+    volume: 0.5
+    pitch: 1.52
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 68dcc7606f1eb7843a8b3195d80b19b6, type: 3}
+    volume: 0.5
+    pitch: 1.66
+    source: {fileID: 0}
+  - name: SmallSplash
+    clip: {fileID: 8300000, guid: 125ff44b09e722a4193bc9e9a7546c2c, type: 3}
+    volume: 0.5
+    pitch: 1.69
+    source: {fileID: 0}
+  - name: Seagulls
+    clip: {fileID: 8300000, guid: 76d3daf212cd9f24caae24add9d93e53, type: 3}
+    volume: 0.5
+    pitch: 1.69
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 8d3ef72f1c1953e4e922213affebdb8a, type: 3}
+    volume: 0.5
+    pitch: 1.69
+    source: {fileID: 0}
+  - name: Click
+    clip: {fileID: 8300000, guid: 4a41164add8654e4db64d57d83990a5b, type: 3}
+    volume: 0.936
+    pitch: 1.69
+    source: {fileID: 0}

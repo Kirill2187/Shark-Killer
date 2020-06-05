@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - player
+  - fish
+  - wall
+  - bird
+  - mine
+  - chest
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Fish
+  - Player
+  - Wall
+  - Mine
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Sky
+    uniqueID: 2469093359
+    locked: 0
+  - name: Background
+    uniqueID: 117106303
+    locked: 0
+  - name: Mine
+    uniqueID: 1509628661
+    locked: 0
+  - name: Foreground
+    uniqueID: 3559440687
+    locked: 0
+  - name: Water
+    uniqueID: 792421039
+    locked: 0
+  - name: UI
+    uniqueID: 4108638631
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
